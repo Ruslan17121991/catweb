@@ -1,0 +1,258 @@
+body{
+    box-sizing: border-box;
+}
+
+.wrap-cats{
+    display: flex;
+    width: 1280px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.cat{
+position: relative;
+height: 520px;
+width: 380px;
+background: #F3F3F3;
+margin:23px;
+}
+
+
+
+.btn-buy{
+width: 380px;
+height: 65px;
+background: #6EBBD3;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.btn-buy:hover{
+    background: #076785;
+    transform: scale(102%);
+}
+
+.btn-sold-out{
+width: 380px;
+height: 65px;
+background: #1F2021;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+/* .btn-sold-out:hover{
+    background: black;
+    color: grey;
+    transform: scale(102%);
+} */
+
+
+.discount{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 78px;
+height: 39px;
+background: #E62D2D;
+border-radius: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.discount:hover{
+    transform: scale(1.1);
+    color: gold;
+}
+
+.discount-one, .discount-five{
+    left: 38px;
+    top: 34px;
+}
+
+.vector4, .vector3{
+position: absolute;
+right: 10%;
+top: 9.86%;
+cursor: pointer;
+}
+
+.vector3:hover{
+    background: url('../image/Vector\ \(4\).png');
+}
+
+.title-cat{
+    margin: 22px 29px 0px 29px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical{
+    display: inline-block;
+    margin: 24px 18px 26px 29px;
+width: 4px;
+height: 26px;
+left: 32px;
+top: 350px;
+background: #6EBBD3;
+}
+
+.block-cat-age{
+    margin: 22px 40px 22px 0px;
+
+}
+
+.block-number{
+    margin-right: 40px;
+}
+
+.color-cat{
+    width: 89px;
+    height: 49px;
+    padding-top: 15px;
+    margin: 22px 20px 22px 0px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+}
+
+.how-age-cat{
+    margin: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.age-cat{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.how-number-of-paws{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.number-of-paws{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.price-cat{
+ margin: 0px 29px 29px 29px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+
+.show-cat{
+width: 380px;
+height: 65px;
+border: 1px solid #CACACA;
+box-sizing: border-box;
+border-radius: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+cursor: pointer;
+margin: 68px 0px 83px 35%;
+}
+
+.show-cat:hover{
+    background: grey;
+    border: 1px solid black;
+}
+
+.btn-vector{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    width: 59px;
+    height: 59px;
+    right: 51%;
+    bottom: 40%;
+    background: #6EBBD3;
+    cursor: pointer;
+}
+
+
+.btn-vector:hover{
+    background: #228aaa;
+
+}
+
+.add-to-favourites{
+    position: absolute;
+    /* z-index: 10; */
+    text-align: center;
+    top: 20px;
+    right: 15px;
+    width: 190px;
+    /* height: 50px; */
+    background: #FFFFFF;
+}
+
+.remove-from-favorites{
+    position: absolute;
+    /* z-index: 10; */
+    text-align: center;
+    top: 105px;
+    right: 15px;
+    width: 190px;
+    /* height: 50px; */
+    background:#f00000c2;
+}
